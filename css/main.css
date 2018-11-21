@@ -9624,4 +9624,63 @@ a.text-dark:hover, a.text-dark:focus {
 .container .panels .panel5 img {
   width: 10%;
 }
+
+.container .panels .panel7 .main {
+  padding: 2em;
+}
+
+.container .panels .panel7 .title {
+  text-align: center;
+  padding: 2em;
+}
+
+.container .panels .panel7 .title h2 {
+  color: #f4425c;
+}
+
+.container .panels .panel7 .title input {
+  width: 30%;
+}
+
+.container .panels .panel7 .todo {
+  padding: 1em 0;
+}
+
+.container .panels .panel7 .todo .col-1 button {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.container .panels .panel7 .todo .col-1 .all {
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+.container .panels .panel7 .tasks .row {
+  height: 6vh;
+}
+
+.container .panels .panel7 .tasks .row .col {
+  padding-left: 0;
+}
+
+.container .panels .panel7 .tasks .row .col i {
+  padding: 0 1em;
+}
+
+.container .panels .panel7 .tasks .row .col-9 .texte {
+  display: inline;
+}
+
+.container .panels .panel7 .tasks .row .col-9 .editing {
+  display: none;
+}
+
+.container .panels .panel7 .tasks .edit .col-9 .texte {
+  display: none;
+}
+
+.container .panels .panel7 .tasks .edit .col-9 .editing {
+  display: inline;
+}
 /*# sourceMappingURL=main.css.map */

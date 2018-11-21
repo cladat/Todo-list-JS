@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
     <link rel="stylesheet" href="../css/main.css">
     <title>Javascript DOM</title>
 </head>
@@ -32,7 +33,7 @@
             </div>
         </div>
         <div class="panels">
-            <div class="panel1 visible">
+            <div class="panel1">
                 <div class="main">
                     <div class="row">
                         <div class="col-10">
@@ -186,11 +187,33 @@
                 </div>
             </div>
 
-            <div class="panel7">
+            <div class="panel7 visible">
                 <div class="main">
-                    <h2>TO DO LIST</h2>
-                    <input type="text">
-                    <button>OK</button>
+                    <div class="title">
+                        <h2>TO DO LIST</h2>
+                        <input type="text" class="border-0 rounded">
+                        <button class="bg-primary border-0 rounded">OK</button>
+                    </div>
+                    <div class="todo">
+                        <h3 class="text-light">Tasks</h3>
+                        <div class="row">
+                            <div class="col-1">
+                                <h5 class="text-secondary">Tags:</h5>
+                            </div>
+                            <div class="col-1"><button class="all bg-primary border-0 rounded">All</button></div>
+                            <div class="col-1"><button class="todo-tag bg-danger border-0 rounded">To do</button></div>
+                            <div class="col-1"><button class="done-tag bg-success border-0 rounded">Done</button></div>
+                        </div>
+                    </div>
+                    <div class="tasks">
+                        <!-- <div class="row border border-secondary rounded bg-light align-items-center">
+                            <div class="col-9"><span class="texte">dqsdddsqds</span><span class="editing"><input type="text"><button
+                                        class="bg-success">OK</button></span></div>
+                            <div class="col d-flex justify-content-end"><i class="fas fa-check fa-lg"></i>
+                                <i class="fas fa-edit fa-lg"></i><i class="fas fa-times fa-lg"></i></div>
+                        </div> -->
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -203,3 +226,5 @@
 </body>
 
 </html>
+
+<!-- document.querySelector('.tasks').innerHTML += "<div class=\"row border border-secondary rounded bg-light align-items-center\"><div class=\"col-9\"><span></span></div><div class=\"col d-flex justify-content-end\"><i class=\"fas fa-check fa-lg\"></i><i class=\"fas fa-edit fa-lg\"></i><i class=\"fas fa-times fa-lg\"></i></div></div>" -->
